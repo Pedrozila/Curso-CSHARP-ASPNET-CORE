@@ -22,14 +22,31 @@ li
     list-style: square;
 }
 
+.btn
+{
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
 .light-theme
 {
  --bg: var(--green);
  --frontColor: var(--black);
+ --btnFontColor: var(--white);
+ --btnBg: var(--black);
 }
 
 .dark-theme
 {
     --bg: var(--black);
     --frontColor: var(--green);
+    --btnFontColor: var(--black);
+    --btnBg: var(--white);
 }
