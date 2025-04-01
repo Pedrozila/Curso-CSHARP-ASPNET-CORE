@@ -1,0 +1,35 @@
+:root 
+{
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+body
+{
+    background-color: var(--bg);
+    color: var(--frontColor);
+    font-family: monospace;
+}
+
+li
+{
+    list-style: circle;
+}
+
+.list
+{
+    list-style: square;
+}
+
+.light-theme
+{
+ --bg: var(--green);
+ --frontColor: var(--black);
+}
+
+.dark-theme
+{
+    --bg: var(--black);
+    --frontColor: var(--green);
+}
